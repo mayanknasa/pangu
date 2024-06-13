@@ -1,79 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pangu - The Penguin Token</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="snowflakes">
-      <!-- Snowflakes will be dynamically added here -->
-    </div>
-
+    <title>$PANGU</title>
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="snowflakes-container"></div>
+    <nav>
+        <div class="logo">
+            <img src="./images/4.png" width="100" />
+            <div class="logo-text focus-text-1">$PANGU</div>
+        </div>
+        <div class="nav-links">
+            <a href="#">DEX</a> | <a href="#">X</a> | <a href="#">Telegram</a>
+        </div>
+    </nav>
     <header>
-      <h1>Pangu</h1>
-      <div class="container">
-        <img src="images/1.png" alt="Image 1" class="animated-image" />
-        <p>
-          Hello, I'm $PANGU! Folks often say I resemble Pepe, but I always
-          correct them—I’m a penguin!
+        <h1 class="focus-text-2">$Pangu</h1>
+        <p><img src="images/2.png" alt="Roost Mascot" class="animated-image img-flex" /></p>
+        <p class="bigger-font">
+            Hello, I'm $PANGU!<br />
+            Folks often say I resemble Pepe, but I always correct them—I’m a penguin!
         </p>
-      </div>
+        <p><button>Buy $PANGU</button></p>
     </header>
-
-    <div class="section about">
-      <h2>ABOUT PANGU</h2>
-      <div class="container">
-        <img src="images/2.png" alt="Image 2" class="animated-image" />
-        <p>
-          Meet our petite yet powerful penguin, who carries a touch of Pepe the
-          Frog, infusing a fresh wave of creativity into Base's degen realm. As
-          the latest and most exciting meme token, $PANGU is here to shake
-          things up. Join us in adding warmth and liquidity to Base.
-        </p>
-      </div>
+    <div class="contract-address focus-text-1 bigger-font">
+        <p>CONTRACT ADDRESS</p>
+        <input type="text" value="CA" readonly />
+        <button onclick="copyToClipboard()">COPY</button>
     </div>
-
-    <div class="section roadmap">
-      <h2>Roadmap</h2>
-      <div class="container">
-        <img src="images/3.png" alt="Image 3" class="animated-image" />
-        <ul>
-          <li>Phase 1: Project creation & Launch on ape store</li>
-          <li>Phase 2: Prepay DEXscreeener, Build the team</li>
-          <li>Phase 3: Base trending, Coinranker trending & DEX ads</li>
-          <li>Phase 4: Listings on Coingecko, CMC and Partnerships</li>
-          <li>
-            Phase 5: A perfectly organized airdrop sequence to thousands of
-            wallets to increase exposure
-          </li>
-        </ul>
-      </div>
+    <div class="section roost-101">
+        <div class="marquee focus-text-1">
+            <span>$PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU $PANGU</span>
+        </div>
+        <h2 class="focus-text-2">Roadmap</h2>
+        <div class="steps">
+            <div class="step">
+                <h3 class="bigger-font">Phase 1</h3>
+                <p>Project creation & Launch on ape store</p>
+            </div>
+            <div class="step">
+                <h3 class="bigger-font">Phase 2</h3>
+                <p>Prepay DEXscreeener, Build the team.</p>
+            </div>
+            <div class="step">
+                <h3 class="bigger-font">Phase 3</h3>
+                <p>Base trending, Coinranker trending & DEX ads</p>
+            </div>
+            <div class="step">
+                <h3 class="bigger-font">Phase 4</h3>
+                <p>Listings<br />Listings on Coingecko, CMC and Partnerships</p>
+            </div>
+            <div class="step">
+                <h3 class="bigger-font">Phase 5</h3>
+                <p>Airdrop<br />A perfectly organized airdrop sequence to thousands of wallets to increase exposure.</p>
+            </div>
+        </div>
+        <p><img src="images/3.png" alt="Join the Base Coop" width="300" class="animated-image" /></p>
     </div>
-
     <div class="section tokenomics">
-      <h2>TOKENOMICS</h2>
-      <div class="container">
-        <img src="images/4.png" alt="Image 4" class="animated-image" />
-        <ul>
-          <li>1 Billion supply</li>
-          <li>LP burnt</li>
-          <li>Contract renounced</li>
-        </ul>
-      </div>
+        <h2 class="focus-text-1">$PANGU TOKENOMICS</h2>
+        <div class="charts">
+            <div class="">
+                <p><img src="images/5.png" alt="Join the Base Coop" width="300" class="animated-image" /></p>
+            </div>
+            <div class="chart">
+                <h3>1 Billion supply</h3>
+                <h3>LP burnt</h3>
+                <h3>Contract renounced</h3>
+            </div>
+        </div>
     </div>
-
-    <div class="section social">
-      <h2>Social Media</h2>
-      <div class="container">
-        <img src="images/6.png" alt="Image 6" class="animated-image" />
-        <a href="#" class="button button-dex">DEX</a>
-        <a href="#" class="button button-x">X</a>
-        <a href="#" class="button button-telegram">Telegram</a>
-      </div>
+    <div class="d-flex">
+        <!-- <img src="images/4.png" alt="Join the Base Coop" width="300" class="animated-image" /> -->
+        <img src="images/6.png" alt="Join the Base Coop" width="300" class="animated-image" />
     </div>
-
-    <script src="script.js"></script>
-  </body>
+    <footer>
+      <h2 class="focus-text-1 bigger-font">SOCIALS</h2>
+      <p class="focus-text-2 bigger-font">Join the $PANGU community</p>
+      <p class="bigger-font">
+        <a href="#">DEX</a> | <a href="#">X</a> | <a href="#">Telegram</a>
+      </p>
+      <p><button>Buy $PANGU</button></p>
+    </footer>
+    
+    <script>
+        function copyToClipboard() {
+            var copyText = document.querySelector(".contract-address input");
+            copyText.select();
+            document.execCommand("copy");
+          alert('CA Copied!')
+        }
+    </script>
+    <script src="snowflakes.js"></script>
+</body>
 </html>
