@@ -26,10 +26,11 @@ header h1 {
 nav {
   background-color: #0070f3;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
   flex-wrap: wrap;
+  border-bottom: 5px solid #000;
 }
 
 .logo {
@@ -48,6 +49,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  text-align: center;
 }
 
 .nav-links a {
@@ -294,4 +296,22 @@ button:active {
 }
 .logo-text {
   font-size: 2rem;
+}
+.about-pangu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid #005bb5;
+  padding: 0rem 1rem;
+  margin: 1rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.about-pangu h2 {
+  margin: 0.5rem;
+  font-size: 3rem;
+}
+.about-pangu p {
+  font-size: 1.5rem;
 }
