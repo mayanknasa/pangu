@@ -126,7 +126,7 @@ nav {
   margin: 10px;
   width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 .chart {
@@ -315,4 +315,8 @@ button:active {
 
 .p-10{
   padding: 10px;
+}
+
+.m-0{
+  margin: 0;
 }
