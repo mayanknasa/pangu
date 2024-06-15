@@ -8,13 +8,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Milky Nice", Arial, sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 header {
   background-color: #b9d6f2;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 header h1 {
@@ -126,6 +126,7 @@ nav {
   margin: 10px;
   width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
 }
 
 .chart {
@@ -219,7 +220,6 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  header,
   .contract-address,
   .section {
     padding: 10px;
@@ -249,27 +249,18 @@ footer a:hover {
     width: 80%;
   }
   .img-flex {
-    max-width: 200px;
+    max-width: 100%;
   }
-}
-.snowflake {
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-  color: white;
-  user-select: none;
-  pointer-events: none;
-  animation-name: fall;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes fall {
-  0% {
-    transform: translateY(0);
+  .image-container {
+    width: 100%; /* Make the container full width of its parent */
+    text-align: center; /* Center the image horizontally */
   }
-  100% {
-    transform: translateY(100vh);
+  
+  .image-container img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the image within the container */
   }
 }
 button {
@@ -304,9 +295,10 @@ button:active {
   flex-direction: column;
   border: 5px solid #005bb5;
   padding: 0rem 1rem;
-  margin: 1rem;
+  margin: 1.5rem;
   text-align: center;
   margin-bottom: 2.5rem;
+  border-radius: 50px;
 }
 .about-pangu h2 {
   margin: 0.5rem;
@@ -314,4 +306,13 @@ button:active {
 }
 .about-pangu p {
   font-size: 1.5rem;
+}
+
+
+.p-rl10{
+  padding: 0 10px;
+}
+
+.p-10{
+  padding: 10px;
 }
