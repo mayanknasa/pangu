@@ -12,15 +12,23 @@ body {
 }
 
 header {
-  background-color: #b9d6f2;
+  background-color: #9af5f8;
   text-align: center;
-  padding: 10px 0;
+  padding: 0 0 10px 0;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 header h1 {
   margin: 0;
   font-size: 6rem;
-  color: #0070f3;
+  padding-bottom: 20px;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
 }
 
 nav {
@@ -31,6 +39,7 @@ nav {
   padding: 10px 20px;
   flex-wrap: wrap;
   border-bottom: 5px solid #000;
+  z-index: 3;
 }
 
 .logo {
