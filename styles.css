@@ -15,7 +15,6 @@ header {
   background-color: #9af5f8;
   text-align: center;
   padding: 0 0 10px 0;
-  /* justify-content: center; */
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -40,6 +39,7 @@ nav {
   flex-wrap: wrap;
   border-bottom: 5px solid #000;
   z-index: 3;
+  position: sticky;
 }
 
 .logo {
@@ -211,7 +211,7 @@ footer a:hover {
 }
 
 .bigger-font {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .animated-image {
