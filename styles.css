@@ -329,3 +329,10 @@ button:active {
 .m-0{
   margin: 0;
 }
+
+.tokenomics{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
