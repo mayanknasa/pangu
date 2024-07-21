@@ -245,6 +245,13 @@ footer a:hover {
     align-items: center;
     text-align: center;
   }
+  nav{
+    padding: 10px 5px;
+  }
+  .nav-links{
+    font-size: 15px;
+    gap: 10px;
+  }
   .nav-links a {
     margin: 5px 0;
   }
@@ -270,6 +277,12 @@ footer a:hover {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any extra spacing */
     margin: 0 auto; /* Center the image within the container */
+  }
+  footer .bigger-font{
+    font-size: 18px;
+  }
+  footer a{
+    margin: 0;
   }
 }
 button {
